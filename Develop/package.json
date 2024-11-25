@@ -1,17 +1,17 @@
 {
   "name": "JATE",
   "version": "1.0.0",
-  "description": "",
+  "description": "Just Another Text Editor (JATE) - A PWA",
   "main": "server.js",
   "scripts": {
-    "start:dev": "",
-    "start": "",
-    "server": "",
-    "build": "",
-    "install": "",
-    "client": ""
+    "start": "node server.js",              
+    "start:dev": "concurrently \"npm run server\" \"npm run client\"", 
+    "server": "nodemon server.js",          
+    "build": "cd client && npm run build", 
+    "install": "npm install && cd client && npm install", 
+    "client": "cd client && npm start"     
   },
-  "keywords": [],
+  "keywords": ["PWA", "Text Editor", "JATE"],
   "author": "",
   "license": "ISC",
   "dependencies": {
