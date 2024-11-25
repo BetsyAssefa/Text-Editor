@@ -89,9 +89,9 @@ PWA Tools: Service Worker, Manifest File, Workbox
 The application is deployed on Render and accessible at the following URL:
 
 
-## Screenshots
+## Screenshots and server working short Video
 
-Add screenshots of your application here!
+[serverWorkingGifVideo](https://github.com/user-attachments/assets/d4805215-ad09-4526-9852-c643f03cdd92)
 
 [screenshot](https://github.com/user-attachments/assets/1532620a-b33d-4d2d-8631-2f295f8e019a)
 
