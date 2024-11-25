@@ -4,7 +4,7 @@
   "description": "Just Another Text Editor (JATE) - A PWA",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",              
+    "start": "node index.js",              
     "start:dev": "concurrently \"npm run server\" \"npm run client\"", 
     "server": "nodemon server.js",          
     "build": "cd client && npm run build", 

@@ -5,8 +5,8 @@
   "main": "server.js",
   "scripts": {
   "start:dev": "concurrently \"nodemon server.js\" \"npm run build\"",
-  "start": "node server.js",
-  "server": "node server.js",
+  "start": "node index.js",
+  "server": "node index.js",
   "client": "npm start",
   "dev": "webpack-dev-server",
   "build": "webpack --mode production"

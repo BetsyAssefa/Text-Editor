@@ -4,7 +4,7 @@
   "description": "A PWA Text Editor built with Webpack and IndexedDB.",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "node index.js",
     "build": "webpack --mode production",
     "start:dev": "nodemon server.js"
   },
