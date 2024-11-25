@@ -5,9 +5,3 @@ node_modules/
 dist/
 *.log
 *.tmp
-
-^x
-^X
-''''']
-
-xx
