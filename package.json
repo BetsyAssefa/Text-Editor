@@ -4,10 +4,12 @@
   "description": "A PWA Text Editor built with Webpack and IndexedDB.",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "build": "webpack --mode production",
-    "dev": "webpack --mode development",
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "start": "node server.js",        
+  "start:dev": "concurrently \"npm run server\" \"npm run client\"",
+  "server": "nodemon server.js",   
+  "build": "cd client && npm run build",
+  "install": "npm install && cd client && npm install", 
+  "client": "cd client && npm start"
   },
   "dependencies": {
     "express": "^4.21.1",
