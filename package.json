@@ -2,11 +2,11 @@
   "name": "text-editor",
   "version": "1.0.0",
   "description": "A PWA Text Editor built with Webpack and IndexedDB.",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "build": "webpack --mode production",
-    "start:dev": "nodemon server.js"
+    "start:dev": "nodemon index.js"
   },
   "dependencies": {
     "express": "^4.21.1",
