@@ -4,9 +4,10 @@
   "description": "A PWA Text Editor built with Webpack and IndexedDB.",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "build": "webpack --mode production",
-    "start:dev": "nodemon index.js"
+  "start": "node server.js",
+  "build": "webpack --mode production",
+  "start:dev": "nodemon server.js"
+}
   },
   "dependencies": {
     "express": "^4.21.1",
