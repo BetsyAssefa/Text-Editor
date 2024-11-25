@@ -1,0 +1,27 @@
+{
+  "name": "text-editor",
+  "version": "1.0.0",
+  "description": "A PWA Text Editor built with Webpack and IndexedDB.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "webpack --mode production",
+    "dev": "webpack --mode development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.21.1",
+    "idb": "^8.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "babel-loader": "^9.2.1",
+    "css-loader": "^7.1.2",
+    "html-webpack-plugin": "^5.6.3",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.96.1",
+    "webpack-cli": "^5.1.4",
+    "workbox-webpack-plugin": "^7.3.0"
+  }
+}
